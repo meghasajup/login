@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form id="loginForm">
+            <h2 style="font-size: 40px;">Login</h2>
+            <input type="email" id="loginEmail" placeholder="Email" autocomplete="username">
+            <span class="error-message" id="loginEmailError"></span>
+            <input type="password" id="loginPassword" placeholder="Password" autocomplete="current-password">
+            <span class="error-message" id="loginPasswordError"></span>
+            <button type="submit">Login</button>
+        </form>
+        <p><a href="#">Forgetten Password</a></p>
+    </div>
+    <script src="validation.js"></script>
+</body>
+</html>
